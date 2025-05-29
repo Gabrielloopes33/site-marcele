@@ -66,50 +66,41 @@ export const ContactSection = () => {
               Contato
             </h2>
 
-            <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">agende sua avaliação!</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            ipsam sint enim exercitationem ex autem corrupti quas tenetur
+            Quer tirar dúvidas, agendar uma consulta ou saber qual o melhor tratamento para o seu caso? <br /> <br/> 
+            Preencha o formulário ao lado ou escolha uma das formas de contato abaixo. <b>Nossa equipe terá o maior prazer em te atender com atenção e cuidado.</b>
           </p>
 
           <div className="flex flex-col gap-4">
             <div>
               <div className="flex gap-2 mb-1">
                 <Building2 />
-                <div className="font-bold">Find us</div>
+                <div className="font-bold">Endereço</div>
               </div>
 
-              <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+              <div>R. Prof. Manoel do Carmo, 108 - Centro, Manhuaçu</div>
             </div>
 
             <div>
               <div className="flex gap-2 mb-1">
                 <Phone />
-                <div className="font-bold">Call us</div>
+                <div className="font-bold">Telefone</div>
               </div>
 
-              <div>+1 (619) 123-4567</div>
-            </div>
-
-            <div>
-              <div className="flex gap-2 mb-1">
-                <Mail />
-                <div className="font-bold">Mail US</div>
-              </div>
-
-              <div>leomirandadev@gmail.com</div>
+              <div>(33) 3331-2600</div>
             </div>
 
             <div>
               <div className="flex gap-2">
                 <Clock />
-                <div className="font-bold">Visit us</div>
+                <div className="font-bold">Horário de Atendimento</div>
               </div>
 
               <div>
-                <div>Monday - Friday</div>
-                <div>8AM - 4PM</div>
+                <div>Segunda à Sexta</div>
+                <div>8h - 18h</div>
               </div>
             </div>
           </div>
@@ -129,9 +120,9 @@ export const ContactSection = () => {
                     name="firstName"
                     render={({ field }) => (
                       <FormItem className="w-full">
-                        <FormLabel>First Name</FormLabel>
+                        <FormLabel>Nome</FormLabel>
                         <FormControl>
-                          <Input placeholder="Leopoldo" {...field} />
+                          <Input placeholder="Renata" {...field} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -142,7 +133,7 @@ export const ContactSection = () => {
                     name="lastName"
                     render={({ field }) => (
                       <FormItem className="w-full">
-                        <FormLabel>Last Name</FormLabel>
+                        <FormLabel>Sobrenome</FormLabel>
                         <FormControl>
                           <Input placeholder="Miranda" {...field} />
                         </FormControl>
@@ -162,7 +153,7 @@ export const ContactSection = () => {
                         <FormControl>
                           <Input
                             type="email"
-                            placeholder="leomirandadev@gmail.com"
+                            placeholder="renatamiranda@gmail.com"
                             {...field}
                           />
                         </FormControl>
@@ -178,29 +169,38 @@ export const ContactSection = () => {
                     name="subject"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Subject</FormLabel>
+                        <FormLabel>Procedimento</FormLabel>
                         <Select
                           onValueChange={field.onChange}
                           defaultValue={field.value}
                         >
                           <FormControl>
                             <SelectTrigger>
-                              <SelectValue placeholder="Select a subject" />
+                              <SelectValue placeholder="Selecione o procedimento" />
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="Web Development">
-                              Web Development
+                            <SelectItem value="Oftalmologia">
+                              Oftalmologia
                             </SelectItem>
-                            <SelectItem value="Mobile Development">
-                              Mobile Development
+                            <SelectItem value=" Cirurgia de pálpebras">
+                               Cirurgia de pálpebras
                             </SelectItem>
-                            <SelectItem value="Figma Design">
-                              Figma Design
+                            <SelectItem value="Endolaser">
+                              Endolaser
                             </SelectItem>
-                            <SelectItem value="REST API">REST API</SelectItem>
-                            <SelectItem value="FullStack Project">
-                              FullStack Project
+                            <SelectItem value="Toxina botulínica (botox)">Toxina botulínica (botox)</SelectItem>
+                            <SelectItem value="Preenchimento">
+                              Preenchimento
+                            </SelectItem>
+                            <SelectItem value=" Ultrassom microfocado">
+                               Ultrassom microfocado
+                            </SelectItem>
+                            <SelectItem value="  Fios de PDO">
+                                Fios de PDO
+                            </SelectItem>
+                            <SelectItem value="  Bioestimulador injetável">
+                                Bioestimulador injetável
                             </SelectItem>
                           </SelectContent>
                         </Select>
@@ -216,11 +216,11 @@ export const ContactSection = () => {
                     name="message"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Message</FormLabel>
+                        <FormLabel>Menssagem</FormLabel>
                         <FormControl>
                           <Textarea
                             rows={5}
-                            placeholder="Your message..."
+                            placeholder="Digite aqui sua mensagem"
                             className="resize-none"
                             {...field}
                           />
@@ -232,7 +232,7 @@ export const ContactSection = () => {
                   />
                 </div>
 
-                <Button className="mt-4">Send message</Button>
+                <Button className="mt-4">Enviar mensagem</Button>
               </form>
             </Form>
           </CardContent>

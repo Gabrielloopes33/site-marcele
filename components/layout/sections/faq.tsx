@@ -13,32 +13,32 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free NextJS Shadcn template.",
+    question: "A cirurgia de pálpebras deixa cicatriz visível?",
+    answer: "A blefaroplastia é feita em áreas discretas da pálpebra, com pontos finos e cicatrização que tende a ficar praticamente imperceptível com o tempo.",
     value: "item-1",
   },
   {
-    question: "Duis aute irure dolor in reprehenderit in voluptate velit?",
+    question: "O Botox deixa o rosto paralisado?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam consectetur sapiente, iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Não! Quando aplicado corretamente, o botox suaviza as expressões mantendo a naturalidade. O segredo está na técnica e na dose ideal para o seu caso.",
     value: "item-2",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet Consectetur natus dolor minus quibusdam?",
+      "O que é ultrassom microfocado e para que serve?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis.",
+      "É uma tecnologia que estimula a produção de colágeno em camadas profundas da pele, promovendo efeito lifting sem cirurgia. Indicado para flacidez no rosto e pescoço.",
     value: "item-3",
   },
   {
-    question: "Excepteur sint occaecat cupidata non proident sunt?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "Qual a diferença entre preenchimento e bioestimulador?",
+    answer: "O preenchimento dá volume imediato (como lábios e olheiras), enquanto os bioestimuladores atuam no longo prazo, melhorando textura, firmeza e sustentação da pele.",
     value: "item-4",
   },
   {
     question:
-      "Enim ad minim veniam, quis nostrud exercitation ullamco laboris?",
-    answer: "consectetur adipisicing elit. Sint labore.",
+      " Os fios de PDO doem? Como funciona?",
+    answer: "É um procedimento minimamente invasivo. Pode causar leve desconforto, mas é feito com anestesia local e recuperação rápida. O efeito lifting é imediato e melhora com o tempo.",
     value: "item-5",
   },
 ];
@@ -52,7 +52,7 @@ export const FAQSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold">
-          Common Questions
+          Perguntas Frequentes
         </h2>
       </div>
 

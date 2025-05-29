@@ -11,9 +11,19 @@ export const HeroSection = () => {
   return (
     <section className="container w-full">
       <div className="grid place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
-        <div className="text-center space-y-8">
+        <div className="text-center space-y-10">
 
-          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
+          {/* FOTO NO TOPO */}
+          <Image
+            src="/logo-01.png"
+            alt="Foto topo"
+            width={300}         // diminua o valor aqui
+            height={180}         // ajuste conforme o aspecto da sua logo
+            className="mx-auto mb-4 max-w-[70%] h-auto" // max-w para responsividade, h-auto para manter proporção
+            priority
+          />
+
+          <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold py-10">
             <h1>
               Desperte sua
               <span className="text-transparent px-2 bg-gradient-to-r from-[#5d8f6a] to-primary bg-clip-text">

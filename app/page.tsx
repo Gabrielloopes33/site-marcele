@@ -18,19 +18,16 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <>
+    <div className="animated-bg min-h-screen">
       <HeroSection />
       <SponsorsSection />
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
       <TestimonialSection />
-
-
-
       <ContactSection />
       <FAQSection />
       <FooterSection />
-    </>
+    </div>
   );
 }
