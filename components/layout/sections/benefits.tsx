@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Confiança com base científica",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Tratamentos realizados por médica especialista com profundo conhecimento anatômico e técnico.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Olhar rejuvenescido",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "Cirurgia de pálpebras e procedimentos ao redor dos olhos com resultado natural e expressivo.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Tecnologia de ponta",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Equipamentos modernos e produtos premium reconhecidos internacionalmente (Allergan, Rennova, Ultraformer, etc).",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Atendimento humanizado e exclusivo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Consultas personalizadas com escuta ativa, para entender sua necessidade e indicar o melhor caminho para o seu caso.",
   },
 ];
 
@@ -40,15 +40,13 @@ export const BenefitsSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
+          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefícios para Você</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            Resultados naturais com segurança médica e olhar mais jovem
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+           Na clínica da Dra. Marcelle Portella, cada tratamento é pensado para realçar sua beleza de forma sutil e segura. Unimos tecnologia, conhecimento e cuidado humano para proporcionar transformações que respeitam sua essência.
           </p>
         </div>
 

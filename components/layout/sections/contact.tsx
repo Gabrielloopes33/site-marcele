@@ -63,7 +63,7 @@ export const ContactSection = () => {
         <div>
           <div className="mb-4">
             <h2 className="text-lg text-primary mb-2 tracking-wider">
-              Contact
+              Contato
             </h2>
 
             <h2 className="text-3xl md:text-4xl font-bold">Connect With Us</h2>

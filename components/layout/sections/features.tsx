@@ -11,39 +11,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Atendimento Humanizado e Moderno",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Cada paciente é único. Por isso, o atendimento é feito de forma personalizada, com escuta ativa e ambiente acolhedor.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Segurança Médica em Primeiro Lugar",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Todos os procedimentos são realizados com rigor técnico por uma especialista em oftalmologia, oculoplástica e estética médica.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Resultados Naturais e Personalizados",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Nada de exageros. O foco está na harmonia facial, respeitando os traços e objetivos individuais de cada paciente.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Produtos Premium e Tecnologia Avançada",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Trabalhamos apenas com produtos reconhecidos internacionalmente e tecnologias seguras para melhores resultados e menos tempo de recuperação.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Avaliações Reais e Resultados Comprovados",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Mais de X pacientes atendidos com segurança, confiança e depoimentos espontâneos sobre o impacto positivo em suas vidas.",
   },
   {
     icon: "Newspaper",
-    title: "Clear Headline",
+    title: "Localização Estratégica",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Consultório com infraestrutura de alto padrão, fácil acesso e ambiente discreto para seu conforto.",
   },
 ];
 
@@ -51,17 +51,15 @@ export const FeaturesSection = () => {
   return (
     <section id="features" className="container py-24 sm:py-32">
       <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-        Features
+        Diferenciais
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        O que torna a Dra. Marcelle Portella única
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+       A Dra. Marcelle une conhecimento médico profundo, técnicas avançadas e um olhar estético refinado para proporcionar resultados que valorizam sua beleza de forma natural, segura e elegante.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -78,7 +76,7 @@ export const FeaturesSection = () => {
                   />
                 </div>
 
-                <CardTitle>{title}</CardTitle>
+                <CardTitle className="text-center">{title}</CardTitle>
               </CardHeader>
 
               <CardContent className="text-muted-foreground text-center">

@@ -27,51 +27,51 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Renata M.",
+    userName: "Professora Universitária",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Fiz a cirurgia de pálpebras com a Dra. Marcelle e fiquei impressionada com o cuidado no pré e pós-operatório. O resultado foi leve, natural e me senti rejuvenescida sem perder minha identidade. ",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Carla A.",
+    userName: "Publicitária",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "Eu sempre tive receio de fazer botox, mas com a Dra. Marcelle me senti segura. O atendimento é diferenciado, ela explica tudo com muita clareza. Resultado discreto, como eu queria! ",
     rating: 4.8,
   },
 
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: " Thaís R.",
+    userName: "Gestora de RH",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "O consultório é impecável, o atendimento é de alto padrão. Fiz ultrassom microfocado e preenchimento — o resultado ficou muito natural. Me sinto mais bonita e confiante.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Luciana P.",
+    userName: "Gestora de RH",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "Tinha muita insegurança com as marcas no rosto e flacidez. A Dra. Marcelle indicou bioestimuladores e peelings e, em poucas sessões, já vi diferença! O tratamento vale cada centavo.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "Fernanda G.",
+    userName: "Advogada",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "Fiz fios de PDO e o efeito lifting foi imediato. Adorei o resultado e me senti super acolhida durante todo o processo. Profissional séria, competente e delicada.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Denise C.",
+    userName: "Fotógrafa",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Sou paciente da Dra. Marcelle há 2 anos. Faço manutenção com botox e skinbooster, e não troco por nada. A pele melhora visivelmente e o atendimento é sempre atencioso.",
     rating: 4.9,
   },
 ];
@@ -81,11 +81,11 @@ export const TestimonialSection = () => {
     <section id="testimonials" className="container py-24 sm:py-32">
       <div className="text-center mb-8">
         <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
-          Testimonials
+         Depoimentos
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+         Veja o que os pacientes dizem sobre <br /> a experiência com a Dra. Marcelle
         </h2>
       </div>
 
