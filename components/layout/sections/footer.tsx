@@ -20,19 +20,32 @@ export const FooterSection = () => {
           <div className="flex flex-col gap-2">
             <h3 className="font-bold text-lg">Redes Sociais</h3>
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://www.instagram.com/dra.marcele.portella/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-60 hover:opacity-100"
+              >
                 Instagram
               </Link>
             </div>
-
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://www.facebook.com/dramarceleportella"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-60 hover:opacity-100"
+              >
                 Facebook
               </Link>
             </div>
-
             <div>
-              <Link href="#" className="opacity-60 hover:opacity-100">
+              <Link
+                href="https://api.whatsapp.com/send?phone=553333312600&text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20Dra.Marcele&utm_medium=social&utm_source=heylink.me"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="opacity-60 hover:opacity-100"
+              >
                 Whatsapp
               </Link>
             </div>

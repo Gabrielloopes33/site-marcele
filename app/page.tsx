@@ -13,12 +13,19 @@ import { TestimonialSection } from "@/components/layout/sections/testimonial";
 
 export const metadata = {
   title: "Dra Marcele Portella",
-  description: "Free Shadcn landing page for developers",
+  description: "Cirurgia de Pálpebras - Endolaser, Estética Médica Facial, Mentoria Privada",
 };
 
 export default function Home() {
   return (
-    <div className="animated-bg min-h-screen">
+    <div className="dotted-bg min-h-screen relative">
+      {/* Blobs animadas */}
+      <div className="animated-bg-blobs">
+        <div className="blob blob1"></div>
+        <div className="blob blob2"></div>
+        <div className="blob blob3"></div>
+      </div>
+      {/* Conteúdo do site */}
       <HeroSection />
       <SponsorsSection />
       <BenefitsSection />

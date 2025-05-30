@@ -38,21 +38,23 @@ export const HeroSection = () => {
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Entre em contato!
-              <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+            <Button
+              asChild
+              className="w-5/6 md:w-1/4 font-bold group/arrow"
+            >
+              <Link href="https://api.whatsapp.com/send?phone=553333312600&text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta%20com%20a%20Dra.Marcele&utm_medium=social&utm_source=heylink.me">
+                Entre em contato!
+                <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
+              </Link>
             </Button>
 
             <Button
               asChild
               variant="secondary"
-              className="w-5/6 md:w-1/4 font-bold"
+              className="w-5/6 md:w-1/4 font-bold shadow-md shadow-primary/30 transition-transform hover:scale-105"
             >
-              <Link
-                href="https://github.com/nobruf/shadcn-landing-page.git"
-                target="_blank"
-              >
-                Procedimentos 
+              <Link href="#services">
+                Procedimentos
               </Link>
             </Button>
           </div>
@@ -63,7 +65,7 @@ export const HeroSection = () => {
           <Image
             width={1200}
             height={1200}
-            className="w-full md:w-[1200px] mx-auto rounded-lg relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
+            className="w-full md:w-[1200px] mx-auto rounded-xl relative rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
                 ? "/hero-image-dark.png"

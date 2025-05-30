@@ -7,8 +7,8 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
+  title: "Dra Marcele Portella",
+  description: "Cirurgia de Pálpebras - Endolaser, Estética Médica Facial, Mentoria Privada",
 };
 
 export default function RootLayout({

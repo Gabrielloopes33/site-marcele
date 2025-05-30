@@ -159,3 +159,73 @@ html {
     background-position: 0% 50%, 0 0;
   }
 }
+
+.animated-bg {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  background: #fff7f0; /* cor de fundo base */
+}
+
+.animated-bg-blobs {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.45;
+  animation: moveBlobs 16s ease-in-out infinite alternate;
+}
+
+.blob1 {
+  background: hsl(var(--primary));
+  width: 400px;
+  height: 400px;
+  top: 10%;
+  left: 10%;
+  animation-delay: 0s;
+}
+.blob2 {
+  background: #e0f7ef;
+  width: 350px;
+  height: 350px;
+  top: 40%;
+  left: 60%;
+  animation-delay: 4s;
+}
+.blob3 {
+  background: #c6e5d9;
+  width: 300px;
+  height: 300px;
+  top: 70%;
+  left: 30%;
+  animation-delay: 8s;
+}
+
+@keyframes moveBlobs {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-40px) scale(1.1);
+  }
+}
+
+.dotted-bg {
+  position: relative;
+  min-height: 100vh;
+  background-color: #ffffff; /* ou use var(--background) */
+  background-image: url("data:image/svg+xml;utf8,<svg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='2' cy='2' r='2' fill='%23d1d5db'/></svg>");
+  background-repeat: repeat;
+  background-size: 12px 12px;
+  z-index: 0;
+}

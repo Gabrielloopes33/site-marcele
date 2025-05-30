@@ -30,7 +30,7 @@ const reviewList: ReviewProps[] = [
     name: "Renata M.",
     userName: "Professora Universitária",
     comment:
-      "Fiz a cirurgia de pálpebras com a Dra. Marcelle e fiquei impressionada com o cuidado no pré e pós-operatório. O resultado foi leve, natural e me senti rejuvenescida sem perder minha identidade. ",
+      "Fiz a cirurgia de pálpebras com a Dra. Marcele e fiquei impressionada com o cuidado no pré e pós-operatório. O resultado foi leve, natural e me senti rejuvenescida sem perder minha identidade. ",
     rating: 5.0,
   },
   {
@@ -38,7 +38,7 @@ const reviewList: ReviewProps[] = [
     name: "Carla A.",
     userName: "Publicitária",
     comment:
-      "Eu sempre tive receio de fazer botox, mas com a Dra. Marcelle me senti segura. O atendimento é diferenciado, ela explica tudo com muita clareza. Resultado discreto, como eu queria! ",
+      "Eu sempre tive receio de fazer botox, mas com a Dra. Marcele me senti segura. O atendimento é diferenciado, ela explica tudo com muita clareza. Resultado discreto, como eu queria! ",
     rating: 4.8,
   },
 
@@ -55,7 +55,7 @@ const reviewList: ReviewProps[] = [
     name: "Luciana P.",
     userName: "Gestora de RH",
     comment:
-      "Tinha muita insegurança com as marcas no rosto e flacidez. A Dra. Marcelle indicou bioestimuladores e peelings e, em poucas sessões, já vi diferença! O tratamento vale cada centavo.",
+      "Tinha muita insegurança com as marcas no rosto e flacidez. A Dra. Marcele indicou bioestimuladores e peelings e, em poucas sessões, já vi diferença! O tratamento vale cada centavo.",
     rating: 5.0,
   },
   {
@@ -71,7 +71,7 @@ const reviewList: ReviewProps[] = [
     name: "Denise C.",
     userName: "Fotógrafa",
     comment:
-      "Sou paciente da Dra. Marcelle há 2 anos. Faço manutenção com botox e skinbooster, e não troco por nada. A pele melhora visivelmente e o atendimento é sempre atencioso.",
+      "Sou paciente da Dra. Marcele há 2 anos. Faço manutenção com botox e skinbooster, e não troco por nada. A pele melhora visivelmente e o atendimento é sempre atencioso.",
     rating: 4.9,
   },
 ];
@@ -85,7 +85,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-         Veja o que os pacientes dizem sobre <br /> a experiência com a Dra. Marcelle
+         Veja o que os pacientes dizem sobre <br /> a experiência com a Dra. Marcele
         </h2>
       </div>
 

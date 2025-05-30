@@ -55,17 +55,17 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        O que torna a Dra. Marcelle Portella única
+        O que torna a Dra. Marcele Portella única
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
        A Dra. Marcelle une conhecimento médico profundo, técnicas avançadas e um olhar estético refinado para proporcionar resultados que valorizam sua beleza de forma natural, segura e elegante.
       </h3>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 ">
         {featureList.map(({ icon, title, description }) => (
           <div key={title}>
-            <Card className="h-full bg-background border-0 shadow-none">
+            <Card className="h-full bg-background border-0 shadow-md shadow-primary/30 transition-transform hover:scale-105">
               <CardHeader className="flex justify-center items-center">
                 <div className="bg-primary/20 p-2 rounded-full ring-8 ring-primary/10 mb-4">
                   <Icon
