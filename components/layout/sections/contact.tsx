@@ -66,7 +66,7 @@ export const ContactSection = () => {
               Contato
             </h2>
 
-            <h2 className="text-3xl md:text-4xl font-bold">agende sua avaliação!</h2>
+            <h2 className="text-3xl md:text-4xl font-bold">Agende sua avaliação!</h2>
           </div>
           <p className="mb-8 text-muted-foreground lg:w-5/6">
             Quer tirar dúvidas, agendar uma consulta ou saber qual o melhor tratamento para o seu caso? <br /> <br/> 

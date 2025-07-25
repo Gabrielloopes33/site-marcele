@@ -31,7 +31,7 @@ export const HeroSection = () => {
               <h1>
                 Desperte sua
                 <span className="text-transparent px-2 bg-gradient-to-r from-[#5d8f6a] to-primary bg-clip-text">
-                  Beleza 
+                  beleza 
                 </span>
                com naturalidade!
               </h1>

@@ -97,7 +97,7 @@ export const ServicesSection = () => {
 
       <Fade direction="up" delay={600} triggerOnce>
         <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-10 ">
-          De procedimentos cirúrgicos a tratamentos estéticos minimamente invasivos, a Dra. Marcelle oferece soluções completas para quem busca rejuvenescimento facial com naturalidade, técnica e confiança.
+          De procedimentos cirúrgicos a tratamentos estéticos minimamente invasivos, a Dra. Marcele oferece soluções completas para quem busca rejuvenescimento facial com naturalidade, técnica e confiança.
         </h3>
       </Fade>
 

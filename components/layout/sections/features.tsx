@@ -65,7 +65,7 @@ export const FeaturesSection = () => {
 
       <Fade direction="up" delay={600} triggerOnce>
         <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-         A Dra. Marcelle une conhecimento médico profundo, técnicas avançadas e um olhar estético refinado para proporcionar resultados que valorizam sua beleza de forma natural, segura e elegante.
+         A Dra. Marcele une conhecimento médico profundo, técnicas avançadas e um olhar estético refinado para proporcionar resultados que valorizam sua beleza de forma natural, segura e elegante.
         </h3>
       </Fade>
 

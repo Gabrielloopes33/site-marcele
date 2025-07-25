@@ -53,7 +53,7 @@ export const BenefitsSection = () => {
           
           <Fade direction="left" delay={600} triggerOnce>
             <p className="text-xl text-muted-foreground mb-8">
-             Na clínica da Dra. Marcelle Portella, cada tratamento é pensado para realçar sua beleza de forma sutil e segura. Unimos tecnologia, conhecimento e cuidado humano para proporcionar transformações que respeitam sua essência.
+             Na clínica da Dra. Marcele Portella, cada tratamento é pensado para realçar sua beleza de forma sutil e segura. Unimos tecnologia, conhecimento e cuidado humano para proporcionar transformações que respeitam sua essência.
             </p>
           </Fade>
         </div>
