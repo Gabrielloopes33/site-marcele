@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Icon } from "@/components/ui/icon";
 import { icons } from "lucide-react";
+import { Fade } from "react-awesome-reveal";
 
 interface BenefitsProps {
   icon: string;
@@ -40,42 +41,50 @@ export const BenefitsSection = () => {
     <section id="benefits" className="container py-24 sm:py-32">
       <div className="grid lg:grid-cols-2 place-items-center lg:gap-24">
         <div>
-          <h2 className="text-lg text-primary mb-2 tracking-wider">Benefícios para Você</h2>
+          <Fade direction="left" delay={200} triggerOnce>
+            <h2 className="text-lg text-primary mb-2 tracking-wider">Benefícios para Você</h2>
+          </Fade>
 
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Resultados naturais com segurança médica e olhar mais jovem
-          </h2>
-          <p className="text-xl text-muted-foreground mb-8">
-           Na clínica da Dra. Marcelle Portella, cada tratamento é pensado para realçar sua beleza de forma sutil e segura. Unimos tecnologia, conhecimento e cuidado humano para proporcionar transformações que respeitam sua essência.
-          </p>
+          <Fade direction="left" delay={400} triggerOnce>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Resultados naturais com segurança médica e olhar mais jovem
+            </h2>
+          </Fade>
+          
+          <Fade direction="left" delay={600} triggerOnce>
+            <p className="text-xl text-muted-foreground mb-8">
+             Na clínica da Dra. Marcelle Portella, cada tratamento é pensado para realçar sua beleza de forma sutil e segura. Unimos tecnologia, conhecimento e cuidado humano para proporcionar transformações que respeitam sua essência.
+            </p>
+          </Fade>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-4 w-full">
           {benefitList.map(({ icon, title, description }, index) => (
-            <Card
-              key={title}
-              className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number shadow-md shadow-primary/30 transition-transform hover:scale-105"
-            >
-              <CardHeader>
-                <div className="flex justify-between ">
-                  <Icon
-                    name={icon as keyof typeof icons}
-                    size={32}
-                    color="hsl(var(--primary))"
-                    className="mb-6 text-primary"
-                  />
-                  <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
-                    0{index + 1}
-                  </span>
-                </div>
+            <Fade key={title} direction="up" delay={800 + (index * 150)} triggerOnce>
+              <Card
+                className="bg-muted/50 dark:bg-card hover:bg-background transition-all delay-75 group/number shadow-md shadow-primary/30 hover:scale-105"
+              >
+                <CardHeader>
+                  <div className="flex justify-between ">
+                    <Icon
+                      name={icon as keyof typeof icons}
+                      size={32}
+                      color="hsl(var(--primary))"
+                      className="mb-6 text-primary"
+                    />
+                    <span className="text-5xl text-muted-foreground/15 font-medium transition-all delay-75 group-hover/number:text-muted-foreground/30">
+                      0{index + 1}
+                    </span>
+                  </div>
 
-                <CardTitle>{title}</CardTitle>
-              </CardHeader>
+                  <CardTitle>{title}</CardTitle>
+                </CardHeader>
 
-              <CardContent className="text-muted-foreground">
-                {description}
-              </CardContent>
-            </Card>
+                <CardContent className="text-muted-foreground">
+                  {description}
+                </CardContent>
+              </Card>
+            </Fade>
           ))}
         </div>
       </div>
